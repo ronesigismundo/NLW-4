@@ -4,7 +4,7 @@ import { Request, Response }from 'express'
 import { SurveysUsersRepository } from '../repositories/SurveysUsersRepository';
 
 
-class AnswarControler {
+class AnswerController {
 
   async execute(request: Request, response: Response) {
 
@@ -30,4 +30,4 @@ class AnswarControler {
   }
 }
 
-export { AnswarControler }
+export { AnswerController }
