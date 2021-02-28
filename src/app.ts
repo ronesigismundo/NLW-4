@@ -6,6 +6,7 @@ import createConnection from './database'
 import { router } from './routers';
 
 createConnection();
+
 const app = express();
 
 app.use(express.json());

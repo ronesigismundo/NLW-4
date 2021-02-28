@@ -9,7 +9,7 @@ export class CreateSurveys1614179713957 implements MigrationInterface {
                 columns: [
                     {
                         name: "id",
-                        type: "uuid",
+                        type: "varchar",
                         isPrimary: true
                     },
                     {
